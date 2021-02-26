@@ -1,0 +1,8 @@
+
+color #2 rgb(193,197,211)
+transparency #20 1
+
+turn y 2 30
+
+color #2 rgb(104,124,192)
+transparency #20 80
