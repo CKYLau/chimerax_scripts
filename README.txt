@@ -1,0 +1,7 @@
+This script is to generate a script to interpolate a move-type command and appearance commands (like transparency) in chimeraX. It should read in a list of overall chimerax commands and spit out the required interpolation. written for chimerax1.1
+
+Syntax is 20210302_Chimerax_turnandwhat_more.py file.txt where file.txt is a list of the command you want to interpolate. For things like color, please put the starting color above the turn command, and the ending colour below. Currently have colors in rgb format "rgb(200,40,200)".
+
+Current commands supported
+    move-type: move, turn, roll (one command per axis); zoom (one command). Requires at least one move-type command
+    appearance command: color, transparency. You can include any number of these, but only model specification per line. e.g. "#1,3/Y:1-24" is fine, but please split "#1/Y #2/A" over two lines.
