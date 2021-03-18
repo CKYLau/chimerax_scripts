@@ -1,4 +1,4 @@
-Chimerax_interpolate will generate commands to interpolate move-type commands with appearance commands (like transparency) in ChimeraX. It will read in a list of overall chimerax commands and spit out the required interpolation. Written for UCSF ChimeraX1.1.
+Chimerax_interpolate will generate commands to interpolate move-type commands with appearance commands (like transparency) in ChimeraX. It will read in a list of overall chimerax commands and spit out the required interpolation. Written for UCSF ChimeraX1.1. Please see ChimeraX documentation for details on each individual command (supported commands below).
 
 Syntax is "Chimerax_interpolate_v0.py file.txt", where file.txt is a list of the command you want to interpolate. 
 
@@ -6,7 +6,7 @@ For appearance commands like color, please put the starting color above the turn
 
 Current commands supported
     move-type: move, turn; zoom (one command). Requires at least one move-type command
-    appearance command: color, transparency. You can include any number of these, but only model specification per line. e.g. "#1,3/Y:1-24" is fine, but please split "#1/Y #2/A" over two lines.
+    appearance command: color, transparency. You can include any number of these, but only model specification per line. e.g. "#1,3/Y:1-24#2/Y" is fine, but please split "#1/Y #2/A" over two lines.
 
 
 Written by Clinton Lau, clau@mrc-lmb.cam.ac.uk.
