@@ -1,4 +1,4 @@
-This script is to generate a script to interpolate a move-type command and appearance commands (like transparency) in ChimeraX. It will read in a list of overall chimerax commands and spit out the required interpolation. Written for UCSF ChimeraX1.1.
+Chimerax_interpolate will generate commands to interpolate move-type commands with appearance commands (like transparency) in ChimeraX. It will read in a list of overall chimerax commands and spit out the required interpolation. Written for UCSF ChimeraX1.1.
 
 Syntax is "ChimeraX_interpolate_v0.py file.txt", where file.txt is a list of the command you want to interpolate. 
 
