@@ -1,6 +1,6 @@
 Chimerax_interpolate will generate commands to interpolate move-type commands with appearance commands (like transparency) in ChimeraX. It will read in a list of overall chimerax commands and spit out the required interpolation. Written for UCSF ChimeraX1.1.
 
-Syntax is "ChimeraX_interpolate_v0.py file.txt", where file.txt is a list of the command you want to interpolate. 
+Syntax is "Chimerax_interpolate_v0.py file.txt", where file.txt is a list of the command you want to interpolate. 
 
 For appearance commands like color, please put the starting color above the turn command, and the ending colour below. Currently have colors in rgb format "rgb(200,40,200)". Please see testcom.txt for an example of input commands to interpolate.
 
